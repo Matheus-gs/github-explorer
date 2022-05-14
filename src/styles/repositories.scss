@@ -1,0 +1,35 @@
+section.RepositoryList {
+    margin: 2.5rem;
+
+    h1 {
+        margin-bottom: 1rem;
+    }
+
+    ul {
+        list-style: none;
+
+        li {
+            width: fit-content;
+            // box-shadow: rgba(0,0,0,0.10) 10px 10px 50px 2px;
+            // border-radius:0.5rem;
+            // padding: 0.5rem 1rem;
+
+            & + li {
+                margin-top: 1.25rem;
+            }
+
+            p {
+                font-size: 0.875rem;
+                color: #444;
+                margin-top: 0.5rem;
+            }
+
+            a {
+                display: inline-block;
+                margin-top: 1rem;
+                text-decoration: none;
+                color: #8257e6;
+            }
+        }
+    }
+}
